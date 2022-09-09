@@ -25,7 +25,7 @@ describe('Carbon dating', () => {
       assert.equal(dateSample(false), false);
       assert.equal(dateSample(null), false);
       assert.equal(dateSample(undefined), false);
-      assert.equal(dateSample([3]), false);
+      assert.equal(dateSample([3]), false); 
       assert.equal(dateSample(['3']), false);
       assert.equal(dateSample({ '3.14': '3dec' }), false);
     });
